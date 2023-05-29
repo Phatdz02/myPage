@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My info</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fac138d07d.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 100px;
+            background-color: #F5F5DC;
+        }
+
+        .avt-image {
+            display: block;
+            max-width: 30%;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 50px;
+            box-shadow: 0px 0px 10px rgba(105, 38, 38, 0.3);
+
+        }
+
+        .avt-image:hover {
+            transform: scale(1.4);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .logo-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 3cm;
+            height: 3cm;
+            margin: 10px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            font-size: 1rem;
+            text-decoration: none;
+            color: rgb(138, 60, 60);
+            border: none;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .logo-button:hover {
+            background-color: #e6e6e6;
+            color: rgb(138, 60, 60);
+        }
+
+        .logo {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .name-tag {
+            display: flex;
+            margin: 10px;
+            justify-content: center;
+            color: rgb(138, 60, 60);
+            font-size: 2rem;
+            font-family: "Times New Roman", Times, serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <div>
+            <img src="/phat.jpg" class="avt-image" alt="Hình ảnh">
+        </div>
+        <div class="name-tag">
+            <p>Trần Thịnh Phát</p>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://www.instagram.com/thinhphatt.2406/" class="btn btn-primary logo-button">
+                        <i class="fab fa-instagram logo"></i> Instagram
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.facebook.com/tran.t.phat.58" class="btn btn-primary logo-button">
+                        <i class="fab fa-facebook logo"></i> Facebook
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.tiktok.com/@thinhphat2406?lang=vi-VN" class="btn btn-primary logo-button">
+                        <i class="fab fa-tiktok logo"></i> TikTok
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://github.com/Phatdz02" class="btn btn-primary logo-button">
+                        <i class="fab fa-github logo"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
